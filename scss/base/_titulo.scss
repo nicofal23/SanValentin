@@ -1,0 +1,23 @@
+h1 {
+    margin: 20px;
+    letter-spacing: -1px;
+    
+}
+.inclinada {
+    display: inline-block;
+    transform: skew(-25deg, 0);
+    color: $colortitulo;
+}
+
+.titulo {
+    font-size: 12px;
+    vertical-align: top;
+}
+.inclinada-2 {
+    display: inline-block;
+    transform: skew(0, -15deg) rotate(15deg);
+    color: $colortitulo;
+}
+.margen {
+    letter-spacing: -5px;
+}
