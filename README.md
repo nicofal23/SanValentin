@@ -1,0 +1,3 @@
+# Proyecto ideado con compañeros del curso desarrollo web para practica en equipo.
+
+### por el momento pausado dado que muchos no disponen de tiempo...
