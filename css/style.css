@@ -31,3 +31,24 @@ body {
   background: #f9ffb4;
   filter: drop-shadow(0 0 10px #cc333f)
 }
+
+
+@font-face {
+  font-family: 'Valentine';
+  src: url('../fonts/Great.ttf') format('truetype')
+      
+  /* Puedes agregar más formatos si es necesario */
+}
+
+h1 {
+  font-family: 'Valentine';
+  font-size: 100px;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
