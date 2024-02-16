@@ -1,3 +1,3 @@
-# Proyecto ideado con compañeros del curso desarrollo web para practica en equipo.
+# Carta de San Valentin , con lluvia de petalos
 
-### por el momento pausado dado que muchos no disponen de tiempo...
+### Para tu enamorada
