@@ -52,3 +52,49 @@ h1 {
   align-items: center;
   text-align: center;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.image {
+  width: 300px; /* Tamaño deseado de la imagen */
+  height: auto;
+}
+
+.heart-rain {
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; /* Asegura que la lluvia esté por encima de todo */
+}
+
+.heart {
+  position: absolute;
+  animation: fall 1s linear infinite;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(-100vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+.heart {
+  width: 20px; /* Nuevo tamaño deseado de la imagen */
+  height: auto;
+}
